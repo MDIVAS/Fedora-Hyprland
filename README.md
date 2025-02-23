@@ -102,7 +102,7 @@ https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
 ## ✨ to use this script
 > clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script
 ```bash
-git clone --depth=1 https://github.com/JaKooLit/Fedora-Hyprland.git ~/Fedora-Hyprland
+git clone --depth=1 https://github.com/MDIVAS/Fedora-Hyprland.git ~/Fedora-Hyprland
 cd ~/Fedora-Hyprland
 chmod +x install.sh
 ./install.sh

@@ -50,6 +50,9 @@ else
 fi
 
 # Update GRUB configuration
+dnf update -y
+sudo dnf install xorg-x11-drv-nvidia-470xx akmod-nvidia-470xx
+sudo dnf install xorg-x11-drv-nvidia-470xx-cuda #optional for cuda up to 11.4 support
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
 echo "${NOTE} Nvidia DRM modeset and additional options have been added to /etc/default/grub. Please reboot for changes to take effect." 2>&1 | tee -a "$LOG"
